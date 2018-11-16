@@ -69,7 +69,7 @@
         android:layout_marginEnd="148dp"
         android:layout_marginRight="148dp"
         android:layout_marginBottom="60dp"
-        android:onClick="add"
+
         android:text="Add"
         app:layout_constraintBottom_toTopOf="@+id/Artist"
         app:layout_constraintEnd_toEndOf="parent"

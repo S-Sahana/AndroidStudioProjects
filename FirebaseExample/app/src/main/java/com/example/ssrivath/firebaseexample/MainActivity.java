@@ -1,5 +1,5 @@
 package com.example.ssrivath.firebaseexample;
-
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity implements View.OnClickListener {
     TextView DisplayName;
     EditText ArtistName;
     EditText ArtistGenre;
@@ -23,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    protected void add(View view){
+
+
+    @Override
+    public void onClick(View v) {
 
     }
-
-
 }
